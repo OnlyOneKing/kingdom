@@ -1,0 +1,38 @@
+.navBar{
+	position:relative;
+	width:100%;
+	white-space: nowrap;
+	font-size: 15px;
+  padding:15px 0;
+}
+.navBar .navBarItem{
+  flex:1;
+  text-align: center;
+}
+.navBar.scroll .navBarItem{
+  display: inline-block;
+}
+.navBar.scroll{
+	width:auto;
+	overflow-y: scroll;
+	padding:0 15px;
+}
+.navBar.scroll .navBarItem{
+	padding:12px 15px!important
+}
+.navBar .navBarItem.active{
+  color: #e64340;
+}
+.navBar-line{
+  position: absolute;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  width: 6em;
+  height: 4px;
+  background-color: #8d2927;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}

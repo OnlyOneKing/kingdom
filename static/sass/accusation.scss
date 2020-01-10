@@ -1,0 +1,67 @@
+.Modal-Portal{
+	position:fixed;
+	z-index:9999999; 
+}
+.accusationBar{
+	background-color: #f1f2f6;
+	color:#888888;
+	padding:15px 0 10px 15px;
+	font-size:14px;
+	.accusationAttention{
+		color:#ff3300;
+	}
+}
+.accusationItem{
+	position:relative;
+	background-color: #ffffff;
+	font-size:15px;
+	color:#333333;
+	height:45px;
+	img{
+		margin:0 10px 0 15px;
+		width:20px;
+		height:20px;
+	}
+}
+.accusationItem::after{
+	content:'';
+	position:absolute;
+	height:1px;
+	width:100%;
+	background-color: #f1f1f1;
+	bottom:0;
+}
+.accusationDemo{
+	background-color: #ffffff;
+	padding:15px;
+	textarea{
+		width:100%;
+		height:100%;
+		padding:10px;
+		box-sizing: border-box;
+		border:1px solid #f1f1f1;
+	}
+}
+.accusationInput{
+	background-color: #ffffff;
+	height:40px;
+	input{
+		width:100%;
+		height:100%;
+		padding:15px;
+		box-sizing: border-box;
+		border:none;
+	}
+} 
+.accusationSubmit{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:56px;
+	background-color: #404040; 
+	color:#ffffff;
+	font-size:14px;
+	text-align: center;
+	line-height: 56px;
+}

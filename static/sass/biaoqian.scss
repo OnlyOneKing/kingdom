@@ -1,0 +1,67 @@
+.biaoqian-content{
+	width: 100%;
+  	height: 100%;
+  	background: #f1f4f6;
+  	box-sizing: border-box;
+  	padding-bottom: 60px;
+  	.top{
+  		padding: 10px 15px;
+  		input{
+  			outline: none;
+  			border: none;
+  			background: white;
+  			padding: 10px 15px;
+  			font-size: 14px;
+  			color: #b2b2b2;
+  			border-radius: 5px;
+  			width: 100%;
+  			box-sizing: border-box;
+  		}
+  	}
+  	.mid{
+  		background: white;
+  		height: 100%;
+  		padding: 0 15px;
+  		h4{
+  			font-size: 14px;
+  			padding: 10px 0;
+  		}
+  		.list{
+  			flex-wrap: wrap;
+  			.list-item{
+  				padding: 7px 24px;
+  				font-size: 14px;
+  				color: #353535;
+  				border: 1px solid #eaeaea;
+  				border-radius: 5px;
+  				margin-bottom: 15px;
+  				margin-right: 15px;
+  			}
+  			.select{
+  				background: #09bb07;
+  			}
+  		}
+  		.lianxiang{
+  			font-size: 14px;
+  			color: #353535;
+  			.lianxiang-item{
+				padding: 15px 0;
+				span{
+					margin-right: 5px;
+				}
+  			}
+  		}
+  	}
+  	::-webkit-input-placeholder { /* Chrome/Opera/Safari */ 
+		color: #b2b2b2;
+	}
+	::-moz-placeholder { /* Firefox 19+ */  
+		color: #b2b2b2;
+	}
+	:-ms-input-placeholder { /* IE 10+ */ 
+		color: #b2b2b2;
+	}
+	:-moz-placeholder { /* Firefox 18- */ 
+		color: #b2b2b2;
+	}
+}

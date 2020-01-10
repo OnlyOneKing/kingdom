@@ -1,0 +1,306 @@
+.competition-content{
+
+	&.index-content{
+		&.zuimei-content{
+			.item-con{
+				.data{
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.nodata{
+			margin-top: 10px;
+		}
+		.son-title{
+			text-align: center;
+			color: #484949;
+			font-size: 17px;
+			background: white;
+			margin-bottom: 10px;
+			padding: 15px 0;
+		}
+		.join-active{
+			position: fixed;
+			z-index: 9;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			background: #09bb07;
+			color: white;
+			font-size: 17px;
+			text-align: center;
+			.back-index{
+				background: #353535;
+				// width: 29.3333vw;
+				padding:0 15px;
+				text-align: center;
+			}
+			.join-go{
+				text-align: center;
+				flex: 1;
+			}
+		}
+		.pic-lists{
+			min-height: 50vh;
+			padding: 10px 15px;
+			flex-wrap: wrap;
+			.pic-lists-item{
+				// width: 45.3333vw;
+				width:100%;
+				font-size: 0;
+				position: relative;
+				margin-bottom: 5px;
+				.pic{
+					width: 100%;
+				}
+				.pic-num{
+					position: absolute;
+					top: 6px;
+					right: 6px;
+					width: 19px;
+					height: 14px;
+					z-index: 2;
+				}
+				.zan{
+					position: absolute;
+					bottom: 6px;
+					left: 6px;
+					z-index: 2;
+					font-size: 13px;
+					color: white;
+					vertical-align: middle;
+					img{
+						width: 13px;
+						height: 14px;
+						vertical-align: middle;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+		.shuoming{
+			background: white;
+			margin-top: 10px;
+			color: #353535;
+			padding: 50px 10px;
+			h1{
+				font-size: 26px;
+				padding-bottom: 25px;
+				text-align: center;
+			}
+			h4{
+				font-size: 15px;
+				padding-bottom: 10px;
+			}
+			.shuoming-content{
+				font-size: 13px!important;
+				padding: 0 10px;
+				line-height: 24px;
+				word-wrap:break-word!important;
+				-webkit-box-sizing:border-box!important;
+				word-break:normal;
+				color: #8b8b8b;
+				text-indent: 30px;
+				h1,h2,h3,h4,div{
+					text-indent: 0;
+				}
+				img{
+					margin:10px 0 5px 0;
+					vertical-align: top;
+				}
+				b{
+					font-weight: 600;
+				}
+			}
+		}
+		.img-box{
+			font-size: 0;
+			position: relative;
+			img{
+				width: 100%;
+			}
+			.status{
+				position: absolute;
+				right: 15px;
+				top: 0;
+				background: #e64340;
+				color: white;
+				padding: 5px 10px;
+				font-size: 13px;
+				z-index: 2;
+			}
+		}
+		h1{
+			font-size: 26px;
+			color: #353535;
+			margin-bottom: 0px;
+		}
+		.compethaveson-bottom{
+			padding: 20px 0;
+			.bottom-btn{
+					width: 40.667%;
+					height: 38px;
+					text-align: center;
+					line-height: 38px;
+					box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+					border-radius: 5px;
+					background: #353535;
+					color: white;
+					font-size: 14px;
+				}
+			.green{
+					background: #09bb07;
+			}
+		}
+		.item-con{
+			padding: 20px 15px;
+			.data{
+				font-size: 15px;
+				color: #828282;
+				margin-bottom: 30px;
+				&.compethaveson-data{
+					margin-bottom: 0;
+				}
+				div{
+					margin-right: 10px;
+					span{
+						margin-right: 2px;
+					}
+				}
+			}
+			.bottom{
+				font-size: 13px;
+				color: #353535;
+				img{
+					width: 14px;
+					height: 14px;
+					margin-right: 8px;
+				}
+				span{
+					margin: 0 2px;
+				}
+			}
+		}
+	}
+	&.collecthaveson-content{
+		.mid-top{
+          font-size: 13px;
+          color: #b2b2b2;
+          padding: 0px 0 13px;
+          img{
+            width: 8px;
+            height: 11px;
+            vertical-align: middle;
+            margin-right: 5px;
+          }
+          span{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+        }
+	}
+	&.collectnoson-content{
+		
+		.shuoming{
+			padding: 50px 10px;
+		}
+		.shuoming.shuoming-collect {
+			padding: 0;
+			position: relative;
+			h1{
+				padding-bottom: 12px;
+				text-indent: 0;
+				font-weight: bold;
+			}
+			.shuoming-content{
+				background: rgba(255, 255, 255, .8);
+				padding: 30px 10px!important;
+			}
+
+		}
+		.zuimeiBanner{
+			font-size: 0;
+			width: 100%;
+			position: relative;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin-bottom: 10px;
+		}
+		.zuimeiMain{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 15px;
+			color: white;
+			font-size: 16px;
+			font-weight: 500;
+			.zuimeiContent-left{
+				font-size:17px;
+			}
+			.zuimeiContent-right{
+				font-size:13px;
+				vertical-align: -webkit-baseline-middle;
+			}
+			.zuimeiTitle{
+				padding-bottom: 5px;
+			}
+		}
+		.zuimeiAll{
+			.blod{
+				font-weight: 700;
+			}
+			.shuoming-content{
+				margin-top: 20px;
+			}
+		}
+		.zuimeiInfo{
+			font-size: 16px;
+    		color: #8b8b8b;
+			.zuimeiInfo-left{
+				width: 50%;
+				div{
+					text-align: right;
+					margin-bottom: 10px;
+					padding-right: 15px;
+				}
+			}
+			.zuimeiInfo-right{
+				width: 50%;
+				div{
+					text-align: left;
+					padding-left: 15px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+.pic-left{
+	width: 50%;
+    padding-right: 3px;
+}
+.pic-right{
+	width: 50%;
+    padding-left: 3px;
+}
+.swiper-wrapper .goto-map{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: rgba(0, 0, 0, .6);
+	padding: 8px 10px;
+	border-radius: 5px;
+	img{
+		width: 12px;
+		margin-right: 5px;
+	}
+	span{
+		font-size: 12px;
+		color: white;
+	}
+}

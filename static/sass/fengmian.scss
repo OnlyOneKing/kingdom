@@ -1,0 +1,50 @@
+.fengmian-content{
+	width: 100%;
+  	height: 100%;
+  	background: #f1f4f6;
+  	padding-bottom: 60px;
+  	.tips{
+  		font-size: 14px;
+  		color: #353535;
+  		padding: 20px 15px;
+  	}
+  	.lists{
+  		background: white;
+  		.list-item{
+  			padding: 15px;
+  			.img{
+  				width: 132px;
+  				height: 62px;
+  				background-size: cover;
+  				background-position: center;
+  				background-repeat: no-repeat;
+  			}
+  			.item-right{
+  				img{
+  					width: 23px;
+          			height: 23px;
+  				}
+  			}
+  		}
+  	}
+  	.bottom{
+  		position: fixed;
+  		width: 100%;
+  		left: 0;
+  		bottom: 0;
+  		font-size: 14px;
+  		color: white;
+  		height: 50px;
+  		line-height: 50px;
+  		.back{
+  			text-align: center;
+  			width: 38vw;
+  			background: #404040;
+  		}
+  		.ok{
+  			text-align: center;
+  			width: 62vw;
+  			background: #09bb07;
+  		}
+  	}
+}

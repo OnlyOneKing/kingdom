@@ -1,0 +1,35 @@
+.dialogCom{
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 2;
+}
+.dialogCom-box{
+	width:75%;
+	height:auto;
+	background-color: #ffffff;
+	border-radius: 6px;
+	margin: 0 auto;
+    margin-top: 40%;
+}
+.dialogCom-title{
+	font-size: 18px;
+	color:#333;
+	text-align: center;
+	padding: 15px 0 6px 0;
+}
+.dialogCom-content{
+	font-size:15px;
+	color:#b2b2b2;
+	text-align: center;
+	padding: 0 18px 15px 18px;
+}
+.dialogCom-btn{
+	font-size:20px;
+	color:#333;
+	text-align: center;
+	display: inline-block;
+}

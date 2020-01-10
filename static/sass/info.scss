@@ -1,0 +1,138 @@
+.info-content{
+	background: #f1f4f6;
+  	width: 100%;
+  	height: 100%;
+  	padding: 25px 0 60px;
+  	h4{
+  		font-size: 14px;
+  		color: #353535;
+  		padding: 0 15px 20px;
+  	}
+  	.item{
+  		background: #f1f4f6;
+  		.item-box{
+        position:relative;
+  			background: white;
+  			height: 45px;
+  			line-height: 45px;
+  			.item-left{
+  				padding-left: 15px;
+  				width: 28vw;
+  				height: 100%;
+  				color: #000000;
+  				font-size: 13px;
+  			}
+  			.item-right{
+  				color: #b2b2b2;
+  				height: 100%;
+          font-size: 13px;
+          div{
+            outline: none;
+            border: none;
+            height: 100%;
+            background: white;
+            color: #b2b2b2;
+            font-size: 13px;
+            box-sizing: border-box;
+          }
+  				input{
+  				  outline: none;
+	          border: none;
+	          height: 100%;
+	          background: white;
+	          color: #b2b2b2;
+	          font-size: 13px;
+	          box-sizing: border-box;
+  				}
+          input::-webkit-input-placeholder{
+              color:#b2b2b2;
+          }
+          input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+              color:#b2b2b2;
+          }
+          input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+              color:#b2b2b2;
+          }
+          input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+              color:#b2b2b2;
+          }
+  			}
+  		}
+  		.item-tips{
+  			font-size: 13px;
+  			color: #888888;
+  			padding: 13px 15px 24px;
+  		}
+  	}
+    .info-confirm-btn{
+      height:50px;
+      line-height: 50px;
+      color:#ffffff;
+      background-color: #404040;
+      text-align: center;
+      font-size:16px;
+      position: fixed;
+      bottom:0;
+      left:0;
+      right:0;
+    }
+}
+.copyright_tips_box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  z-index: 999999;
+  right: 0;
+  background: -webkit-linear-gradient(#d4d4d4, rgba(255, 255, 255, 0.75));
+}
+
+.copyright_tips{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 99999;
+    font-size: 14px;
+    overflow: hidden;
+    width: 320px;
+    left: 50%;
+    margin-left: -160px;
+    top: 50px;
+    bottom: 85px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px #bbb;
+    .copyright_tips_content{
+      position:absolute;
+      top:20px;
+      right:0;
+      left:0;
+      bottom:55px;
+      overflow-y: auto;
+      p{
+        text-indent: 2em;
+        line-height: 26px;
+        padding:15px 20px;
+      }
+      .copyright_tips_title{
+        font-size:25px;
+        color:#282828;
+        text-align: center;
+      }
+    }
+    .copyright_tips_bottombtn{
+      position: absolute;
+      bottom: 7px;
+      left: 0;
+      right: 0px;
+      height: 40px;
+      background-color: #09bb07;
+      width: 200px;
+      border-radius: 10px;
+      margin: 0 auto;
+      line-height: 40px;
+      color: #ffffff;
+      text-align: center;
+      div{
+        padding:3px 15px;
+      }
+    }
+}

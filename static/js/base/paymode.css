@@ -1,0 +1,156 @@
+.paymode-box-bg{
+  position:fixed;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,0.4);
+  font-weight:400;
+  z-index: 99999;
+}
+.paymode-box{
+    position: fixed;
+    width: 80%;
+    max-width: 288px;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    padding:6px;
+}
+.paymode{
+  background-color: #ffffff;
+  width:100%;
+  height:auto;
+  border-radius: 8px;
+  position:relative;
+}
+.paymode-close{
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDQzMzYzKSAgLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSLlm77lsYJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxOC45NDRweCIgaGVpZ2h0PSIxOC45ODZweCIgdmlld0JveD0iMCAwIDE4Ljk0NCAxOC45ODYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4Ljk0NCAxOC45ODYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNDQ0NDQ0MiIGQ9Ik0xOC4wNTUsMTguMDk2Yy0xLjE4OCwxLjE4OC0zLjExMSwxLjE4OC00LjI5OCwwbC00LjI5OC00LjMwMg0KCWwtNC4yOTYsNC4zMDJjLTEuMTg4LDEuMTg4LTMuMTExLDEuMTg4LTQuMjk4LDBjLTEuMTg2LTEuMTg4LTEuMTg2LTMuMTEzLDAtNC4zMDJsNC4yOTgtNC4zMDFMMC44NjUsNS4xOTINCgljLTEuMTg2LTEuMTg4LTEuMTg2LTMuMTEzLDAtNC4zMDFjMS4xODctMS4xODgsMy4xMS0xLjE4OCw0LjI5OCwwbDQuMjk2LDQuMzAxbDQuMjk4LTQuMzAxYzEuMTg3LTEuMTg4LDMuMTEtMS4xODgsNC4yOTgsMA0KCWMxLjE4NiwxLjE4OCwxLjE4NiwzLjExMywwLDQuMzAxbC00LjI5OCw0LjMwMWw0LjI5OCw0LjMwMUMxOS4yNCwxNC45ODIsMTkuMjQsMTYuOTA4LDE4LjA1NSwxOC4wOTZ6Ii8+DQo8L3N2Zz4NCg==");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 6px;
+  top:6px;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.paymode-barinfo{
+  font-size:15px;
+  color:#828282;
+  font-weight:400;
+  text-align: center;
+  padding-top: 22px;
+}
+.paymode-title{
+  font-size:24px;
+  color:#282828;
+  padding:30px 18px 0 18px;
+  font-weight:400;
+  text-align: center;
+}
+.paymode-subtitle{
+  font-size:15px;
+  color:#282828;
+  margin-top:8px;
+  text-align: center;
+}
+.paymode-content{
+  padding:0 1.6em 0.8em;
+  min-height:40px;
+  font-size:15px;
+  line-height:1.3;
+  word-wrap:break-word;
+  word-break:break-all;
+  color:#999999;
+  word-wrap:break-word!important;
+  -webkit-box-sizing:border-box!important;
+  word-break:normal;
+  text-align:justify;
+  text-justify:inter-ideograph;
+}
+.paymode-content div{
+  margin-bottom:10px;
+  line-height: 20px;
+}
+.paymode-btnbox{
+  position:relative;
+  padding: 15px;
+  margin-top:15px;
+}
+.paymode-btnbox::before{
+  content: '';
+  position:absolute;
+  top:0;
+  left:0;
+  height:1px;
+  width:100%;
+  background-color: #cccccc;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+}
+.paymode-btn{
+  background-color:#09bb07;
+  border-radius:50px;
+  margin-bottom: 15px;
+  width:100%;
+  font-size:14px;
+  color:#ffffff;
+  border-radius:50px;
+  width:100%;
+  font-size:14px;
+  color:#ffffff;
+  padding: 15px 0;
+  text-align: center;
+}
+.paymode-btninfo{
+  color:#ff3f00;
+  font-size:12px;
+  margin-top:12px;
+  text-align: center;
+}
+.paymode-extra{
+  width:100%;
+  position:relative;
+  display:block;
+  margin-left:0!important;
+  margin-right:0!important;
+  padding-left:0!important;
+  padding-right:0!important;
+  box-sizing:border-box;
+  text-decoration:none!important;
+  line-height:inherit!important;
+  border-radius:0!important;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  background-color:inherit!important;
+  color:#828282;
+  font-size:14px;
+  text-align:center;
+  padding:20px 0 12px 0;
+
+}
+.paymode-extra div{
+  display: inline-block;
+}
+.goShelf{
+  width:215px!important;
+  height:215px!important;
+  margin: 0 auto;
+  display: block;
+  padding: 22px 0;
+}
+.paymode-bottominfo{
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  color:#888888;
+  padding:12px;
+}

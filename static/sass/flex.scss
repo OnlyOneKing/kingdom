@@ -1,0 +1,45 @@
+/* flex布局封装 */
+.flex{
+  display: -webkit-flex; /* Safari */
+  display: flex!important;
+}
+
+/* 主轴方向为垂直方向，从上往下 */
+.flex-column{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: column;
+}
+
+/* space-between：两端对齐，项目之间的间隔都相等。 */
+.flex-space-between{
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+/* center：中间对齐 */
+.flex-center{
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* ver-center: 垂直居中 */
+.flex-ver-center{
+  -webkit-align-items: center;
+  align-items: center;
+}
+.flex-ver-bottom{
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+/* space-around: 平均分配 */
+.flex-space-around{
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}

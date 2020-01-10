@@ -1,0 +1,33 @@
+.jiazai{
+	padding: 15px 0;
+}
+.jiazai img{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 10px;
+	animation:rotating 1.2s linear infinite;
+	-moz-animation:rotating 1.2s linear infinite;
+	-webkit-animation:rotating 1.2s linear infinite;
+	-o-animation:rotating 1.2s linear infinite;
+}
+.jiazai div{
+	font-size: 11px;
+	color: #484949;
+}
+
+@keyframes rotating{
+	from{transform:rotate(0)}
+	to{transform:rotate(360deg)}
+}
+@-moz-keyframes rotating{
+	from{transform:rotate(0)}
+	to{transform:rotate(360deg)}
+}
+@-webkit-keyframes rotating{
+	from{transform:rotate(0)}
+	to{transform:rotate(360deg)}
+}
+@-o-keyframes rotating{
+	from{transform:rotate(0)}
+	to{transform:rotate(360deg)}
+}

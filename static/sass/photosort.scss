@@ -1,0 +1,59 @@
+.DraggerLayout.plant-layout{
+	position:fixed;
+	left:0!important;
+	right:0!important;
+	top:55px!important;
+	bottom:50px;
+	overflow-y: scroll;
+	width:100%!important;
+	height:auto!important;
+}
+.dragact-box{
+	margin-top:55px;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:50px;
+	overflow-y: scroll;
+	.sort-item{
+		width:100%!important;
+		height:93px;
+		background-color:#ffffff;
+		.img{
+			width:132px;
+			height:62px;
+			margin-left:15px;
+		}
+		.sort-btn{
+			touch-action:none!important;
+			img{
+				width:27px;
+				height:13px;
+				margin-right:15px;
+			}
+		}
+	}
+}
+.sort-bottombtn{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:50px;
+	z-index:999999999!important;
+	.back{
+		flex:1;
+		background-color:#404040;
+		color:#fff;
+		font-size:14px;
+		height:50px;
+	}
+	.finish{
+		flex:2;
+		background-color:#09bb07;
+		font-size:14px;
+		height:50px;
+		color:#fff;
+	}
+}

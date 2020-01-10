@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+  <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport"> 
+    <link rel="stylesheet" href="./css/main.css?v55">
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2519447074" type="text/javascript" charset="utf-8"></script>
+    <script src="https://tjs.sjs.sinajs.cn/open/thirdpart/js/jsapi/mobile.js" charset="utf-8"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.14&key=68fe3838a7ba9ac0cd99190a00b2fb24"></script>
+    <script src=""></script>
+    <meta name="renderer" content="webkit">
+    <title>中国国家地理图片</title> 
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?603b221024adc506f2689218936a4310";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6d6cbe23d0625420b71f3ffcfad75602";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+
+    <script type="text/javascript">
+      function checkDiv(){
+        if(!document.getElementById("app-container")||(document.getElementById("app-container").innerHTML.length<300)){
+          setTimeout(function(){
+            checkDiv()
+          },50);
+        }else{
+          if(document.getElementById("app-container").innerHTML.length<300){
+            checkDiv();
+          }else{
+            document.getElementById("loadingBox").style.display="none";
+          }
+        }
+      }
+      checkDiv();
+    </script>
+</head>
+<body>
+  <div style="display:none;">
+    <wb:share-button appkey="2519447074" addition="number" type="button" ralateUid="2926202897"></wb:share-button>
+  </div>
+<div>
+  <div style="z-index:999;position:fixed;top: 35%; left: 50%;margin-left:-36px;" class="ball-pulse" id="loadingBox">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<div style="z-index:9999;" id="app-container"></div>
+<script>
+  var time= new Date();
+  time.setHours(time.getHours(), 0, 0, 0);
+  var newDateStamp = Date.parse(time)/1000;
+  addJsByLink=function(url){
+      var doc=document;
+      var link=doc.createElement("script");
+      link.setAttribute("type", "text/javascript");
+      link.setAttribute("src", url);
+
+      var heads = doc.getElementsByTagName("head");
+      if(heads.length){
+          heads[0].appendChild(link);
+      }else{
+          doc.documentElement.appendChild(link);
+      }
+  }
+  var src="js/main.js";
+  addJsByLink(src+'?'+newDateStamp+'v102');
+</script>
+
+</body>
+</html>

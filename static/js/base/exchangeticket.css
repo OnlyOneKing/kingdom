@@ -1,0 +1,117 @@
+.exchangeticket-star{
+    width:35px;
+    height:11px;
+    margin:0 auto;
+    display: block;
+    padding-top:0.4266rem;
+}
+.exchangeticket-bar{
+    position:relative;
+    margin:0 auto;
+    margin-top:0.17rem;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+.exchangeticket-bar::before{
+    position:absolute;
+    content:'';
+    background-color: #ffffff;
+    height:1px;
+    width: 2.1333rem;
+    top: 0.40rem;
+    left: 3.6693rem;
+}
+.exchangeticket-bar::after{
+    position:absolute;
+    content:'';
+    background-color: #ffffff;
+    height:1px;
+    width: 2.1333rem;
+    top: 0.40rem;
+    left: 8.96rem;
+}
+.exchangeticket-title{
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+    margin-top:0.512rem;
+}
+.exchangeticket-exprietime{
+    text-align: center;
+    font-size: 12px;
+    color:#fff;
+    margin-top:0.8106rem;
+    padding-bottom:0.8533rem;
+}
+.exchangeticket-exprietime span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.exchangeticket-exprietime span:first-child{
+    margin-right: 5px;
+    font-family: sans-serif;
+}
+.exchangeticket-exprietime-big{
+    font-weight: 600;
+    font-size:14px;
+}
+
+.exchangeticket{
+	width:14.80rem;
+	/*height:5.845rem;*/
+	margin: 0 auto;
+    border-radius: 12px;
+    position: relative;
+    -moz-box-shadow: 3px 3px 3px #e5e5e5; /* 老的 Firefox */
+	box-shadow: 3px 3px 3px #e5e5e5;
+}
+.exchangeticket .exchangeticket-circle-left{
+    height:30px;
+    width:30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position:absolute;
+    top:50%;
+    left:0;
+    margin:-15px 0 0 -15px;
+}
+.exchangeticket .exchangeticket-circle-right{
+    height:30px;
+    width:30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position:absolute;
+    top:50%;
+    right:0;
+    margin: -15px -15px 0 0;
+}
+.exchangeticket::before{
+	content:'';
+	height:100%;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:1.792rem;
+	width:1px;
+	border-left: 1px dashed #ffffff;
+
+}
+.exchangeticket::after{
+	content:'';
+	height:100%;
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:1.792rem;
+	width:1px;
+	border-left: 1px dashed #ffffff;
+
+}
+.exchangeticket-cardsnum{
+    position: absolute;
+    bottom: 0.4533rem;
+    right: 0.6533rem;
+    font-size: 15px;
+    color: #ffffff;
+}

@@ -1,0 +1,45 @@
+.caogao-content{
+	&.allphotos-content{
+		.noData{
+			text-align: center;
+			font-size: 14px;
+			color: #353535;
+			padding-top: 15px;
+		}
+		.lists{
+			.lists-item{
+				background: #f1f4f6;
+				.btn{
+						height: 45px;
+						line-height: 45px;
+						text-align: center;
+						border-radius: 5px;
+						color: white;
+						font-size: 18px;
+					}
+				.img-box{
+					.bianji{
+						background: rgba(44, 162, 13, .8);
+						position: absolute;
+						width: 78vw;
+						position: absolute;
+						left: 50%;
+						top: 50%;
+						margin-left: -39vw;
+						margin-top: -22.5px;
+					}
+				}
+				.item-mid{
+					background: white;
+				}
+				.item-bot{
+					.delete{
+						width: 92vw;
+						background: #e94f4f;
+						margin: 30px auto;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+.pclogin-page{
+	z-index: 99999;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0.6);
+	.pclogin-background{
+		background-color: rgba(255,255,255,0.9);
+		width:100%;
+		padding:17px;
+		box-sizing:border-box;
+		border-radius: 20px;
+		max-width: 320px;
+		margin:0 auto;
+		margin-top:130px;
+		border-radius: 6px;
+		.pclogin-title{
+			color:#333;
+			font-size:18px;
+			text-align: center;
+			margin-bottom:33px;
+		}
+		.pclogin-btn.wx{
+			background-color: rgba(9,187,7,0.7);
+			height:38px;
+			border:1px solid #029400;
+			width:100%;
+			margin-bottom:22px;
+			box-sizing:border-box;
+			border-radius: 6px;
+			img{
+				width:28px;
+				height:23px;
+				margin-left: 20px;
+			}
+			div{
+				margin-left:48px;
+				font-size:18px;
+				color:#fff;
+			}
+		}
+		.pclogin-btn.wb{
+			background-color: rgba(221,78,2,0.7);
+			height:38px;
+			border:1px solid #973501;
+			width:100%;
+			margin-bottom:22px;
+			box-sizing:border-box;
+			border-radius: 6px;
+			img{
+				width:28px;
+				height:23px;
+				margin-left: 20px;
+			}
+			div{
+				margin-left:48px;
+				font-size:18px;
+				color:#fff;
+			}
+		}
+	}
+}
